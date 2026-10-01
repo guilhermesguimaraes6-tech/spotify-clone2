@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+aside{
+    width: 220px;
+    height: 100vh;
+    background-color: #000;
+    padding: 25px;
+}
+
+aside h1{
+    margin-bottom: 40px;
+}
+
+aside p{
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+main{
+    flex: 1;
+    padding: 40px;
+}
+
+.musica{
+    margin-top: 25px;
+    background-color: #181818;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 500px;
+}
+
+.musica img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.musica div{
+    flex: 1;
+}
+
+button{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 220px;
+    right: 0;
+    height: 80px;
+    background-color: #181818;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#progresso{
+    flex: 1;
+    cursor: pointer;
+}
+
+#tempo{
+    white-space: nowrap;
+}
